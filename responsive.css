@@ -1,0 +1,293 @@
+
+
+
+@media screen and (max-width:1400px) {
+.client-box{
+    width: 33.3%;
+}
+.nav-mask{
+    height: 100px;
+}
+.setting{
+    flex-direction: column;
+    justify-content: center;
+}
+.flemini {
+    position: relative;
+    top: auto;
+}
+.img-section{
+        margin: 0 ;
+}
+.img-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #ffffff3e;
+
+}
+.home-alt{
+    text-align: center;
+}
+.img-section{
+    margin-bottom: 50px;
+}
+.img-section,.home-content{
+    width: 100%;
+}
+.text-gradient{
+    text-align: center;
+}
+}
+@media screen and (max-width:1200px) {
+   
+    .nav-container{
+        background: #000;
+    }
+    .gif-container{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .gif{
+        width: 100%;
+    }
+    .text-over{
+        padding: 10px;
+        -webkit-filter: blur(0px) !important;
+        font-size: 18px !important;
+    }
+    .logo a{
+        -webkit-filter: blur(0px) !important;
+        font-size: 18px !important;
+    }
+    .fa-bars{
+        -webkit-filter: blur(0px) !important;
+        font-size: 18px !important;
+    }
+    .nav-links-container a{
+        width: 100% !important;
+        -webkit-filter: blur(0px) !important;
+    }
+        @-webkit-keyframes blur {
+            0% {
+                -webkit-filter: blur(0px);
+                opacity: 1;
+            }
+    
+            50% {
+                -webkit-filter: blur(0px);
+                opacity: 1;
+            }
+    
+            100% {
+                -webkit-filter: blur(0px);
+                opacity: 1;
+            }
+        }
+    
+        @-webkit-keyframes jerk {
+            50% {
+                left: 0px;
+            }
+    
+            51% {
+                left: 0;
+            }
+        }
+                @-webkit-keyframes jerkwhole {
+                    40% {
+                        opacity: 1;
+                        top: 0;
+                        left: 0px;
+                        -webkit-transform: scale(1);
+                        -webkit-transform: skew(0, 0);
+                    }
+        
+                    41% {
+                        opacity: 1;
+                        top: 0px;
+                        left: 0px;
+                        -webkit-transform: scale(1);
+                        -webkit-transform: skew(0, 0);
+                    }
+        
+                    42% {
+                        opacity: 1;
+                        top: 0px;
+                        left: 0px;
+                        -webkit-transform: scale(1, 1.8);
+                        -webkit-transform: skew(0, 0);
+                    }
+        
+                    43% {
+                        opacity: 1;
+                        top: 0;
+                        left: 0;
+                        -webkit-transform: scale(1);
+                        -webkit-transform: skew(0, 0);
+                    }
+                }
+    .menu-btn{
+        -webkit-filter: blur(0px) !important;
+    }
+    .copyf{
+        -webkit-filter: blur(0px) !important;
+        font-size: 13px !important;
+    }
+    .play-btn a{
+        -webkit-filter: blur(0px) !important;
+    }
+    .social-links a{
+        -webkit-filter: blur(0px) !important;
+    }
+    .social-links a i{
+        -webkit-filter: blur(0px) !important;
+        font-size: 22px !important;
+    }
+    .second-box .title{
+        -webkit-filter: blur(0px) !important;
+        padding-top: 20px;
+    }
+        
+    .social-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+        .video-card{
+            width: 50%;
+            height: 300px;
+        }
+    .flex-around{
+        flex-direction: column-reverse !important;
+    }
+    .img-container-about,.title-container{
+        width: 100% !important;
+    }
+    .boxing-container{
+        flex-direction: column;
+    }
+    .first-m{
+        width: 100%;
+    }
+    
+    
+}
+
+@media screen and (max-width:900px) {
+    .text-gradient{
+        font-size: 28px;
+    }
+    .home-alt{
+        font-size: 16px;
+    }
+    .img-section img{
+        width: 200px;
+        height: 200px;
+    }
+    .client-box{
+        width: 50%;
+    }
+    .section{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .box-music .title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            text-align: center;
+            height: auto;
+        }
+        
+    .flex-around .title-about {
+            font-size: 33px;
+            padding: 15px 0;
+            text-shadow: 0 0 15px #ffffffb8;
+        }
+    
+        .flex-around .about-alt {
+            font-size: 16px;
+            color: #ffffffd4;
+            font-weight: 200;
+        }
+                .flex-around .about-alt b {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    text-shadow: 0 0 15px #ffffffb8;
+                }
+                .logo a{
+                    font-size: 25px;
+                }
+    .nav-links-container {
+           
+            width: 80%;}
+
+    .text-gradient{
+        font-size: 22px;
+    }
+    .video-card{
+        width: 350px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+   
+        .client-title {
+            font-size: 16px;
+        }
+    
+        .client-box {
+            width: 50%;
+        }
+    
+        .client-box-img {
+            width: 130px;
+            height: 130px;
+        }
+}
+@media screen and (max-width:800px) {
+    .second-box {
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            justify-content: center;
+            gap: 25px;
+        }
+        
+}
+@media screen and (max-width:550px) {
+    .box-music {
+            width: 100%;
+        }
+    
+        .first-m {
+            height: auto;
+        }
+    
+        .first-m img {
+            height: auto;
+        }
+}
+@media screen and (max-width:370px) {
+    .client-box-img {
+            width: 100px;
+            height: 100px;
+        }
+                .client-title {
+                    font-size: 12px;
+                }
+}
+@media screen and (max-width:300px) {
+    .client-box-img {
+            width: 80px;
+            height: 80px;
+        }
+                .client-title {
+                    font-size: 10px;
+                }
+}
+
