@@ -2672,3 +2672,28 @@ Customize https://plyr.io
    .menu-btn.active .fa-bars {
        display: none;
    }
+
+   .new-release{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #000;
+    width: 100%;
+    height: 680px;
+    
+   }
+   .new-release img{
+    width: 100%;
+    height: 100%;
+   }
+   .new-release-header{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    padding: 15px;
+    background: #000000;
+    font-size: 18px;
+    text-align: center;
+    
+   }
