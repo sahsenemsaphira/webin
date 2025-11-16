@@ -60,12 +60,9 @@
     }
     .logo a{
         -webkit-filter: blur(0px) !important;
-        font-size: 18px !important;
+        font-size: 32px !important;
     }
-    .fa-bars{
-        -webkit-filter: blur(0px) !important;
-        font-size: 18px !important;
-    }
+   
     .nav-links-container a{
         width: 100% !important;
         -webkit-filter: blur(0px) !important;

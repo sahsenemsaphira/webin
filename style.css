@@ -1,14 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/itc-benguiat-std');
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body{
     position: relative;
     top: 0;
-    
-    font-family: "Cinzel", sans-serif;
+ 
+    text-transform: uppercase !important;
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff70;
@@ -26,9 +30,10 @@ body::after{
     background-position: center;
     background-size: cover;
     z-index: -1;
-    opacity: 0.6   ;
+    opacity: .350   ;
     
 }
+
 
 /* body::before{
     content: "";
@@ -57,7 +62,7 @@ nav{
     background-size: cover;
     z-index: 80;
     background: linear-gradient(to bottom, #ff000030, transparent);
-    
+    font-family: 'ITC Benguiat Std', sans-serif !important;
 }
 
 .nav-container{
@@ -145,7 +150,7 @@ transform: scale(1);
         text-align: center;
         transition: .3s ease all;
         color: #ffffff70;
-        font-size: 18px;
+        font-size: 48px;
         text-align: center;
         -webkit-filter: blur(1px);
         text-shadow: 0 0 1px #ffffff70;
@@ -186,6 +191,7 @@ iframe{
     position: relative;
     right: 0;
     padding: 20px;
+    padding-top: 50px;
     z-index: 100;
 
 }
@@ -225,7 +231,7 @@ iframe{
     text-align: center;
     transition: .3s ease all;
     color: #ffffff70;
-        font-size: 18px;
+        font-size: 32px;
         text-align: center;
         -webkit-filter: blur(1px);
     
@@ -556,13 +562,13 @@ animation: moveIn 3s 0s cubic-bezier(.36, 0, .06, 1) alternate infinite;
     color: #ffffff70;
     -webkit-filter: blur(1px);
         text-shadow: 0 0 1px #ffffff70;
-        font-size: 32px;
+        font-size: 0;
         text-align: center;
        
         font-weight: 500;
 }
 .menu-btn span{
-    font-size: 18px;
+    font-size: 32px;
     padding-right: 20px;
 }
 
@@ -572,15 +578,18 @@ animation: moveIn 3s 0s cubic-bezier(.36, 0, .06, 1) alternate infinite;
     padding: 50px;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1520px;
     height: 100%;
     margin: auto;
+    border: 2px solid #ffffff20 !important;
 }
 
 .container > img{
     object-fit: contain;
 }
-
+.fulllinks a{
+    font-size: 20px;
+}
 .home-container{
     height: 60vh;
 }
@@ -639,7 +648,7 @@ animation: moveIn 3s 0s cubic-bezier(.36, 0, .06, 1) alternate infinite;
 .iframe iframe{
     width: 100%;
     min-height: 760px;
-    border: none;
+   
     
 }
 
@@ -657,7 +666,7 @@ animation: moveIn 3s 0s cubic-bezier(.36, 0, .06, 1) alternate infinite;
 .social-links{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 6px;
     padding: 25px 0;
     
     font-size: 32px;
@@ -2357,7 +2366,7 @@ Customize https://plyr.io
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     text-shadow: 0 0 1px #ffffff70;
 
 }
@@ -2579,6 +2588,11 @@ Customize https://plyr.io
        margin: 0;
        border-radius: 0;
        border: 0;
+    font-family: 'ITC Benguiat Std', sans-serif;
+    margin-top: 50px;
+   }
+   .full-sec .text-over{
+font-size: 48px !important;
    }
 
    .portfolio-container {
@@ -2696,4 +2710,8 @@ Customize https://plyr.io
     font-size: 18px;
     text-align: center;
     
+   }
+
+   .box-music .text-over {
+       font-size: 32px !important;
    }
