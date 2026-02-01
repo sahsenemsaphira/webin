@@ -3,243 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahsenem Saphira Official Gallery | Saphira Artist & Musician</title>
-    <meta name="description" content="Official photo gallery of artist Sahsenem Saphira. 25-year-old Germany-born mezzo-soprano singer and dark-pop musician. Explore Saphira's latest visual portfolio.">
-    <meta name="keywords" content="Sahsenem Saphira, Saphira music, Saphira artist, German-born singer, mezzo-soprano, dark pop gallery, saphirafm, Saphira official photos">
+    <title>Sahsenem Saphira | Official Artist Gallery & Visual Portfolio</title>
+    <meta name="description" content="Explore the official gallery of Sahsenem Saphira. Featuring stage performances, artistic costumes, and studio portraits of the 25-year-old German-born mezzo-soprano.">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <style>
-        body { background-color: #0a0a0a; color: #ffffff; font-family: 'Helvetica Neue', Arial, sans-serif; }
-        .header-section { padding: 80px 0 40px; text-align: center; }
-        h1 { font-weight: 900; letter-spacing: 3px; text-transform: uppercase; color: #f8f9fa; }
-        .sub-text { color: #ff0055; font-weight: 600; letter-spacing: 1px; }
-
-        /* Fixed 350px width, aspect ratio preserved */
-        .gallery-container {
-            display: flex;
-            flex-wrap: wrap;
+        body { background-color: #080808; color: #e0e0e0; font-family: 'Inter', sans-serif; }
+        .gallery-header { padding: 70px 0 30px; text-align: center; border-bottom: 1px solid #1a1a1a; margin-bottom: 40px; }
+        h1 { font-weight: 800; color: #fff; letter-spacing: 2px; }
+        
+        .gallery-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 350px);
             justify-content: center;
-            gap: 25px;
-            padding-bottom: 50px;
+            gap: 20px;
+            padding: 20px;
         }
 
-        .img-card {
+        .img-item {
             width: 350px;
-            background: #151515;
-            border-radius: 4px;
+            background: #121212;
+            border-radius: 10px;
             overflow: hidden;
-            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            transition: all 0.3s ease-in-out;
+            border: 1px solid #222;
         }
 
-        .img-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 30px rgba(255, 0, 85, 0.3);
+        .img-item:hover {
+            transform: scale(1.03);
+            border-color: #ff0055;
+            box-shadow: 0 0 20px rgba(255, 0, 85, 0.2);
         }
 
-        .img-card img {
+        .img-item img {
             width: 350px;
             height: auto; /* Maintains original aspect ratio */
             display: block;
-            filter: grayscale(20%);
-            transition: filter 0.3s ease;
         }
 
-        .img-card:hover img { filter: grayscale(0%); }
-
-        .seo-meta-text {
+        .caption {
             padding: 15px;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            color: #666;
+            font-size: 0.85rem;
+            color: #999;
             text-align: center;
-            border-top: 1px solid #222;
+            line-height: 1.4;
         }
 
-        .bio-section { padding: 60px 0; border-top: 1px solid #222; }
-        a.official-link { color: #ff0055; text-decoration: none; font-weight: bold; }
-        a.official-link:hover { text-decoration: underline; }
+        .bio-box { background: #111; padding: 50px; border-radius: 20px; margin-top: 50px; }
+        a { color: #ff0055; text-decoration: none; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <header class="header-section">
-        <h1>Sahsenem Saphira</h1>
-        <p class="sub-text">VOCALIST | ARTIST | MEZZO-SOPRANO</p>
+<div class="container-fluid">
+    <header class="gallery-header">
+        <h1>SAHSENEM SAPHIRA</h1>
+        <p class="text-secondary">Official Visual Press Kit & Performance Gallery</p>
     </header>
 
-    <div class="gallery-container">
-        <div class="img-card">
-            <img src="wiki/1 (1).webp" alt="Sahsenem Saphira portrait - Professional dark pop artist">
-            <div class="seo-meta-text">Saphira Visual 01</div>
+    <div class="gallery-wrapper">
+        <div class="img-item">
+            <img src="wiki/1 (1).webp" alt="Sahsenem Saphira official portrait - Dark pop music artist Germany">
+            <div class="caption">Official Artist Portrait</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (2).webp" alt="Saphira musician Germany - Studio session photography">
-            <div class="seo-meta-text">Saphira Visual 02</div>
+        <div class="img-item">
+            <img src="wiki/1 (2).webp" alt="Saphira mezzo-soprano singer - Live stage performance costume">
+            <div class="caption">Stage Performance Costume</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (3).webp" alt="Sahsenem Saphira singer - Mezzo-soprano vocal performance">
-            <div class="seo-meta-text">Saphira Visual 03</div>
+        <div class="img-item">
+            <img src="wiki/1 (3).webp" alt="Sahsenem Saphira music video shoot - Aesthetic visual art">
+            <div class="caption">Music Video Visuals</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (4).webp" alt="Saphira official music gallery - SaphiraFM visual content">
-            <div class="seo-meta-text">Saphira Visual 04</div>
+        <div class="img-item">
+            <img src="wiki/1 (4).webp" alt="Saphira musician vocal recording session - SaphiraFM studio">
+            <div class="caption">Studio Recording Session</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (5).webp" alt="Sahsenem Saphira 25 year old artist - Aesthetic profile">
-            <div class="seo-meta-text">Saphira Visual 05</div>
+        <div class="img-item">
+            <img src="wiki/1 (5).webp" alt="Sahsenem Saphira cinematic artist look - Germany born musician">
+            <div class="caption">Cinematic Artist Profile</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (6).webp" alt="Saphira artist from Germany - Dark pop music style">
-            <div class="seo-meta-text">Saphira Visual 06</div>
+        <div class="img-item">
+            <img src="wiki/1 (6).webp" alt="Saphira dark pop vocalist - Creative costume design">
+            <div class="caption">Creative Costume Design</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (7).webp" alt="Sahsenem Saphira new single release photoshoot">
-            <div class="seo-meta-text">Saphira Visual 07</div>
+        <div class="img-item">
+            <img src="wiki/1 (7).webp" alt="Sahsenem Saphira live concert photography - Mezzo-soprano vocals">
+            <div class="caption">Live Concert Highlights</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (8).webp" alt="Saphira music artist - Cinematic visual concept">
-            <div class="seo-meta-text">Saphira Visual 08</div>
+        <div class="img-item">
+            <img src="wiki/1 (8).webp" alt="Saphira artist press photo - Modern pop star aesthetic">
+            <div class="caption">Press Kit Photography</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (9).webp" alt="Sahsenem Saphira vocal artist portfolio">
-            <div class="seo-meta-text">Saphira Visual 09</div>
+        <div class="img-item">
+            <img src="wiki/1 (9).webp" alt="Sahsenem Saphira fashion and music collaboration - Urban style">
+            <div class="caption">Urban Style Shoot</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (10).webp" alt="Saphira official artist photography 2026">
-            <div class="seo-meta-text">Saphira Visual 10</div>
+        <div class="img-item">
+            <img src="wiki/1 (10).webp" alt="Saphira independent artist gallery - New single release promo">
+            <div class="caption">New Single Promotion</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (11).webp" alt="Sahsenem Saphira stage performance look">
-            <div class="seo-meta-text">Saphira Visual 11</div>
+        <div class="img-item">
+            <img src="wiki/1 (11).webp" alt="Sahsenem Saphira stage lighting and atmosphere - Dark pop mood">
+            <div class="caption">Stage Lighting & Mood</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (12).webp" alt="Saphira independent musician gallery">
-            <div class="seo-meta-text">Saphira Visual 12</div>
+        <div class="img-item">
+            <img src="wiki/1 (12).webp" alt="Saphira musician portrait - Professional vocal artist from Germany">
+            <div class="caption">Vocal Artist Portrait</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (13).webp" alt="Sahsenem Saphira artistic expression - SaphiraFM">
-            <div class="seo-meta-text">Saphira Visual 13</div>
+        <div class="img-item">
+            <img src="wiki/1 (13).webp" alt="Sahsenem Saphira behind the scenes - Music production visuals">
+            <div class="caption">Behind the Scenes</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (14).webp" alt="Saphira pop artist from Germany photoshoot">
-            <div class="seo-meta-text">Saphira Visual 14</div>
+        <div class="img-item">
+            <img src="wiki/1 (14).webp" alt="Saphira aesthetic artist profile - SaphiraFM official">
+            <div class="caption">Aesthetic Profile View</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (15).webp" alt="Sahsenem Saphira mezzo-soprano singer profile">
-            <div class="seo-meta-text">Saphira Visual 15</div>
+        <div class="img-item">
+            <img src="wiki/1 (15).webp" alt="Sahsenem Saphira dramatic stage costume - Performance art">
+            <div class="caption">Dramatic Performance Art</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (16).webp" alt="Saphira dark pop music icon visual">
-            <div class="seo-meta-text">Saphira Visual 16</div>
+        <div class="img-item">
+            <img src="wiki/1 (16).webp" alt="Saphira pop artist close-up - Professional makeup and style">
+            <div class="caption">Style & Makeup Details</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (17).webp" alt="Sahsenem Saphira music career highlights">
-            <div class="seo-meta-text">Saphira Visual 17</div>
+        <div class="img-item">
+            <img src="wiki/1 (17).webp" alt="Sahsenem Saphira artistic expression - Vocalist photography">
+            <div class="caption">Artistic Expression</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (18).webp" alt="Saphira singer songwriter photography">
-            <div class="seo-meta-text">Saphira Visual 18</div>
+        <div class="img-item">
+            <img src="wiki/1 (18).webp" alt="Saphira music album cover concept - Visual storytelling">
+            <div class="caption">Album Concept Art</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (19).webp" alt="Sahsenem Saphira professional artist portrait">
-            <div class="seo-meta-text">Saphira Visual 19</div>
+        <div class="img-item">
+            <img src="wiki/1 (19).webp" alt="Sahsenem Saphira contemporary artist - Dark aesthetic music">
+            <div class="caption">Contemporary Dark Pop</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (20).webp" alt="Saphira modern music artist profile">
-            <div class="seo-meta-text">Saphira Visual 20</div>
+        <div class="img-item">
+            <img src="wiki/1 (20).webp" alt="Saphira Germany musician career - Live tour photography">
+            <div class="caption">Live Tour Photography</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (21).webp" alt="Sahsenem Saphira aesthetic photoshoot gallery">
-            <div class="seo-meta-text">Saphira Visual 21</div>
+        <div class="img-item">
+            <img src="wiki/1 (21).webp" alt="Sahsenem Saphira song writer and singer portrait">
+            <div class="caption">Songwriter Profile</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (22).webp" alt="Saphira vocalist stage presence photography">
-            <div class="seo-meta-text">Saphira Visual 22</div>
+        <div class="img-item">
+            <img src="wiki/1 (22).webp" alt="Saphira vocal performance - Mezzo-soprano range visual">
+            <div class="caption">Vocal Range Session</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (23).webp" alt="Sahsenem Saphira creative artist portfolio">
-            <div class="seo-meta-text">Saphira Visual 23</div>
+        <div class="img-item">
+            <img src="wiki/1 (23).webp" alt="Sahsenem Saphira music career highlights - SaphiraFM 2026">
+            <div class="caption">Career Highlights 2026</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (24).webp" alt="Saphira music branding photoshoot">
-            <div class="seo-meta-text">Saphira Visual 24</div>
+        <div class="img-item">
+            <img src="wiki/1 (24).webp" alt="Saphira artist costume for new music video release">
+            <div class="caption">Music Video Costume</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (25).webp" alt="Sahsenem Saphira portrait session 2026">
-            <div class="seo-meta-text">Saphira Visual 25</div>
+        <div class="img-item">
+            <img src="wiki/1 (25).webp" alt="Sahsenem Saphira portrait - High fashion music aesthetic">
+            <div class="caption">High Fashion Aesthetic</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (26).webp" alt="Saphira singer live session visual">
-            <div class="seo-meta-text">Saphira Visual 26</div>
+        <div class="img-item">
+            <img src="wiki/1 (26).webp" alt="Saphira musician studio portrait - Germany pop scene">
+            <div class="caption">German Pop Scene Portrait</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (27).webp" alt="Sahsenem Saphira artistic musician shots">
-            <div class="seo-meta-text">Saphira Visual 27</div>
+        <div class="img-item">
+            <img src="wiki/1 (27).webp" alt="Sahsenem Saphira stage presence and charisma - Live show">
+            <div class="caption">Stage Presence</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (28).webp" alt="Saphira official digital press kit photo">
-            <div class="seo-meta-text">Saphira Visual 28</div>
+        <div class="img-item">
+            <img src="wiki/1 (28).webp" alt="Saphira vocal artist branding - Official website imagery">
+            <div class="caption">Official Brand Imagery</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (29).webp" alt="Sahsenem Saphira SaphiraFM exclusive content">
-            <div class="seo-meta-text">Saphira Visual 29</div>
+        <div class="img-item">
+            <img src="wiki/1 (29).webp" alt="Sahsenem Saphira artistic photography - Mistik dark pop vibe">
+            <div class="caption">Mistik Dark Pop Vibe</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (30).webp" alt="Saphira dark pop vocal artist portrait">
-            <div class="seo-meta-text">Saphira Visual 30</div>
+        <div class="img-item">
+            <img src="wiki/1 (30).webp" alt="Saphira singer profile - 25 year old musician career">
+            <div class="caption">Artist Career Profile</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (31).webp" alt="Sahsenem Saphira musician from Germany portfolio">
-            <div class="seo-meta-text">Saphira Visual 31</div>
+        <div class="img-item">
+            <img src="wiki/1 (31).webp" alt="Sahsenem Saphira concert stage outfit - Visual artist">
+            <div class="caption">Concert Stage Outfit</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (32).webp" alt="Saphira artistic singer official photo">
-            <div class="seo-meta-text">Saphira Visual 32</div>
+        <div class="img-item">
+            <img src="wiki/1 (32).webp" alt="Saphira professional studio photography - SaphiraFM">
+            <div class="caption">Professional Studio Shot</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (33).webp" alt="Sahsenem Saphira contemporary music gallery">
-            <div class="seo-meta-text">Saphira Visual 33</div>
+        <div class="img-item">
+            <img src="wiki/1 (33).webp" alt="Sahsenem Saphira mezzo-soprano singer - Performance gallery">
+            <div class="caption">Performance Gallery</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (34).webp" alt="Saphira musician lookbook 2026">
-            <div class="seo-meta-text">Saphira Visual 34</div>
+        <div class="img-item">
+            <img src="wiki/1 (34).webp" alt="Saphira dark pop music culture - Visual portfolio">
+            <div class="caption">Dark Pop Culture</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (35).webp" alt="Sahsenem Saphira mezzo-soprano artist look">
-            <div class="seo-meta-text">Saphira Visual 35</div>
+        <div class="img-item">
+            <img src="wiki/1 (35).webp" alt="Sahsenem Saphira artist photoshoot - Creative direction">
+            <div class="caption">Creative Direction</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (36).webp" alt="Saphira music artist digital collection">
-            <div class="seo-meta-text">Saphira Visual 36</div>
+        <div class="img-item">
+            <img src="wiki/1 (36).webp" alt="Saphira singer songwriter - Global music industry visual">
+            <div class="caption">Global Music Visual</div>
         </div>
-        <div class="img-card">
-            <img src="wiki/1 (37).webp" alt="Sahsenem Saphira final official gallery image">
-            <div class="seo-meta-text">Saphira Visual 37</div>
+        <div class="img-item">
+            <img src="wiki/1 (37).webp" alt="Sahsenem Saphira final gallery shot - Official SaphiraFM artist">
+            <div class="caption">Official Artist Finale</div>
         </div>
     </div>
 
-    <section class="bio-section text-center">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <h2>About Sahsenem Saphira</h2>
-                <p class="mt-4">
-                    Born in Germany, <strong>Sahsenem Saphira</strong> is a 25-year-old visionary artist and 
-                    mezzo-soprano vocalist. Merging dark pop elements with profound lyrical themes, 
-                    she has established a unique identity in the modern music scene.
-                </p>
-                <p>
-                    For more music and updates, visit the official website: 
-                    <a href="https://saphirafm.com" class="official-link" target="_blank">SaphiraFM.com</a>
-                </p>
-            </div>
+    <div class="container pb-5">
+        <div class="bio-box text-center">
+            <h2>About Sahsenem Saphira</h2>
+            <p class="lead mt-3">
+                Sahsenem Saphira, known professionally as <strong>Saphira</strong>, is a 25-year-old 
+                German-born musician and mezzo-soprano vocalist. Dominating the dark pop scene with her 
+                unique style, she combines high-fashion visuals with cinematic soundscapes.
+            </p>
+            <p>Visit official source: <a href="https://saphirafm.com" target="_blank">SaphiraFM.com</a></p>
         </div>
-    </section>
-
-    <footer class="text-center py-4 text-muted">
-        <small>&copy; 2026 Sahsenem Saphira - Official Press Gallery</small>
-    </footer>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
