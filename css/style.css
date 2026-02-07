@@ -5,8 +5,8 @@
     
     --card-bg: #0f0f0f;
     --accent: #ff2525;
-    /* SIAMÉS Red */
-    --hud-color: #00F3FF;
+    /*  Red */
+    --hud-color: #ff2525;
     /* Cyber Blue */
     --text-main: #EAEAEA;
     --text-dim: #888888;
@@ -81,19 +81,7 @@ button {
    ========================================= */
 
 /* Scanlines (Retro TV Effect) */
-.scanlines {
-    position: fixed;
-    inset: 0;
-    background: linear-gradient(to bottom,
-            rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0) 50%,
-            rgba(0, 0, 0, 0.1) 50%,
-            rgba(0, 0, 0, 0.1));
-    background-size: 100% 4px;
-    pointer-events: none;
-    z-index: 9000;
-    opacity: 0.4;
-}
+
 
 /* Flash Overlay (Start Game Effect) */
 .flash-overlay {
@@ -602,7 +590,7 @@ nav {
     z-index: 10000;
     opacity: 0;
     border: 2px solid #FF003F;
-    /* Siamese Kırmızısı */
+    /*  Kırmızısı */
     border-radius: 4px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     /* Resmin başlangıç noktasını kendi merkezi yapalım */
@@ -636,22 +624,7 @@ nav {
     position: relative;
 }
 
-/* Hover Reveal Map */
-.map-reveal-img {
-    position: absolute;
-    top: 50%;
-    right: 5%;
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
-    transform: translateY(-50%) rotate(5deg) scale(0.9);
-    opacity: 0;
-    pointer-events: none;
-    border: 1px solid var(--accent);
-   
-    transition: all 0.4s ease-out;
-    z-index: 0;
-}
+
 
 /* JS ile aktifken class ekleyeceğiz veya CSS sibling selector */
 
@@ -708,9 +681,9 @@ nav {
 }
 
 .mission-item:hover .m-status {
-    border-color: var(--hud-color);
-    color: var(--hud-color);
-    background: rgba(0, 243, 255, 0.05);
+    border-color: var(--accent);
+        color: var(--accent);
+        background: rgba(255, 0, 0, 0.02);
 }
 .mission-item.actives .m-status {
     border-color: var(--accent);
@@ -1350,4 +1323,3 @@ footer {
     font-weight: 600;
     margin-bottom: 10px;
 }
-

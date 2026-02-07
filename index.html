@@ -135,7 +135,7 @@
 
     <div class="bg-fixed"></div>
     <style>
-        .siames-hero-wrapper {
+        .saphira-hero-wrapper {
             height: 100vh;
             width: 100%;
            
@@ -148,12 +148,12 @@
         }
     
         /* Zorunlu Border Radius 0 kuralı */
-        .siames-hero-wrapper *,
-        .siames-hero-wrapper {
+        .saphira-hero-wrapper *,
+        .saphira-hero-wrapper {
             border-radius: 0 !important;
         }
     
-        .siames-grain {
+        .saphira-grain {
             position: absolute;
             inset: 0;
            
@@ -162,12 +162,12 @@
             z-index: 1;
         }
     
-        .siames-container {
+        .saphira-container {
             z-index: 10;
             text-align: center;
         }
     
-        .siames-title {
+        .saphira-title {
             font-family: 'Arial Black', sans-serif;
             /* HUD fontun varsa onu kullan */
             font-size: clamp(3rem, 12vw, 9rem);
@@ -177,19 +177,19 @@
             text-shadow: 0 0 50px #ffffff50;
         }
     
-        .siames-line {
+        .saphira-line {
             display: block;
             opacity: 0;
         }
     
-        .siames-accent {
+        .saphira-accent {
             color: #ff2525;
             text-shadow: 0 0 50px #ff252550;
             font-weight: 600;
             font-size: 4rem;
         }
     
-        .siames-tagline {
+        .saphira-tagline {
             font-size: 0.9rem;
             letter-spacing: 6px;
             color: #666;
@@ -198,7 +198,7 @@
         }
     
         /* Scroll To Down Butonu Stili */
-        .siames-scroll-trigger {
+        .saphira-scroll-trigger {
             cursor: pointer;
             display: inline-flex;
             flex-direction: column;
@@ -208,14 +208,14 @@
             transition: opacity 0.5s ease;
         }
     
-        .siames-scroll-text {
+        .saphira-scroll-text {
             font-size: 11px;
             letter-spacing: 4px;
             color: #fff;
             font-weight: bold;
         }
     
-        .siames-scroll-line {
+        .saphira-scroll-line {
             width: 1px;
             height: 80px;
             background: rgba(255, 255, 255, 0.15);
@@ -223,7 +223,7 @@
             overflow: hidden;
         }
     
-        .siames-scroll-dot {
+        .saphira-scroll-dot {
             width: 1px;
             height: 30%;
             background: #ff2525;
@@ -300,12 +300,12 @@
         }
     </style>
     
-    <section id="siames-hero" class="siames-hero-wrapper">
-        <div class="siames-grain"></div>
+    <section id="saphira-hero" class="saphira-hero-wrapper">
+        <div class="saphira-grain"></div>
     
-        <div class="siames-container hover-trigger">
-            <div class="siames-content-box">
-                <h1 class="siames-title">
+        <div class="saphira-container hover-trigger">
+            <div class="saphira-content-box">
+                <h1 class="saphira-title">
                
                     <p class="hero-subtitle" id="start-txt">SCROLL DOWN </p>
                 </h1>
@@ -321,20 +321,20 @@
                 const tl = gsap.timeline({ defaults: { ease: "expo.out" } });
 
                 // Başlıkların gelişi
-                tl.fromTo(".siames-line",
+                tl.fromTo(".saphira-line",
                     { y: 100, opacity: 0 },
                     { y: 0, opacity: 1, duration: 1.5, stagger: 0.2 }
                 );
 
                 // Tagline gelişi
-                tl.fromTo(".siames-tagline",
+                tl.fromTo(".saphira-tagline",
                     { opacity: 0 },
                     { opacity: 1, duration: 1 },
                     "-=0.5"
                 );
 
                 // Scroll butonunun belirmesi
-                tl.fromTo(".siames-scroll-trigger",
+                tl.fromTo(".saphira-scroll-trigger",
                     { opacity: 0, y: 20 },
                     { opacity: 1, y: 0, duration: 1 },
                     "-=0.5"
@@ -347,7 +347,7 @@
                     const x = (e.clientX / window.innerWidth - 0.5) * 250;
                     const y = (e.clientY / window.innerHeight - 0.5) * 250;
 
-                    gsap.to(".siames-title", {
+                    gsap.to(".saphira-title", {
                         x: x,
                         y: y,
                         duration: 2,
@@ -631,7 +631,7 @@
     </div>
     <div class="armory-header" style="position: relative;top: 75px;">
         <h2> </h2>
-        <a href="https://www.siamesmerch.com/" target="_blank"
+        <a href="https://www.saphiramerch.com/" target="_blank"
             class="group relative inline-flex items-center justify-center min-w-[300px]  px-4 py-4 transition-all duration-300 active:scale-95 hover-trigger overflow-hidden">
     
             <span

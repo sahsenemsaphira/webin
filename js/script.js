@@ -1,5 +1,5 @@
 /* =========================================
-   SIAMÉS | ARCADE EXPERIENCE ENGINE
+    | ARCADE EXPERIENCE ENGINE
    ========================================= */
 
 // 1. INIT LIBRARIES
