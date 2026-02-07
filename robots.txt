@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Görsellerin Google Images'da iyi bir şekilde indexlenmesi için
+Allow: /img/
+
+# Sitenin haritasını botlara gösteriyoruz
+Sitemap: https://saphirafm.com/sitemap.xml
+
+# Botlara gereksiz yük bindirmemek için bekleme süresi (isteğe bağlı)
+Crawl-delay: 1
